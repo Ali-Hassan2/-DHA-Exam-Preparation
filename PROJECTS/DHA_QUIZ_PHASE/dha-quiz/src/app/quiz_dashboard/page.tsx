@@ -100,7 +100,7 @@ const Page = () => {
             />
           </div>
           <Separator className="my-6 w-full max-w-3xl" />
-          <Text className="text-gray">@Originated By Ali Hassan.</Text>
+          <Text className="text-gray">@ Originated By Ali Hassan.</Text>
         </>
       )}
     </div>
