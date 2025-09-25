@@ -48,7 +48,7 @@ const Page = () => {
   }
 
   return (
-    <div className="w-full h-[100vh] flex flex-col items-center justify-start p-6 border-2 border-red-500">
+    <div className="w-full h-[100vh] flex flex-col items-center justify-start p-6">
       <Banner className="w-full max-w-3xl rounded-xl min-h-[200px] bg-white border border-black shadow-md flex flex-col items-center justify-center text-center p-6 space-y-3">
         <div className="flex items-center gap-2">
           <BannerIcon icon={CircleAlert} className="text-black border-none" />
@@ -84,20 +84,24 @@ const Page = () => {
           </Button>
         </div>
       ) : (
-        <div className="quiz-board w-full max-w-3xl">
-          <Text className="mb-3 block">
-            Score: {score} / {questions.length}
-          </Text>
-          <QuizBoard
-            index={current}
-            question={questions[current].question}
-            options={questions[current].options}
-            id={questions[current].id}
-            onAnswer={handleAnswer}
-            selectedOption={selectedOption}
-            correctAnswer={questions[current].answer}
-          />
-        </div>
+        <>
+          <div className="quiz-board w-full max-w-3xl">
+            <Text className="mb-3 block">
+              Score: {score} / {questions.length}
+            </Text>
+            <QuizBoard
+              index={current}
+              question={questions[current].question}
+              options={questions[current].options}
+              id={questions[current].id}
+              onAnswer={handleAnswer}
+              selectedOption={selectedOption}
+              correctAnswer={questions[current].answer}
+            />
+          </div>
+          <Separator className="my-6 w-full max-w-3xl" />
+          <Text className="text-gray">@Originated By Ali Hassan.</Text>
+        </>
       )}
     </div>
   )
