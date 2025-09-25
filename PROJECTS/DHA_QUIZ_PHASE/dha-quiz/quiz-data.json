@@ -1,0 +1,674 @@
+[
+  {
+    "id": 1,
+    "question": "Which cranial nerve is responsible for the sense of smell?",
+    "options": [
+      "Optic nerve",
+      "Olfactory nerve",
+      "Trigeminal nerve",
+      "Facial nerve"
+    ],
+    "answer": "Olfactory nerve"
+  },
+  {
+    "id": 2,
+    "question": "What is the normal range of adult respiratory rate per minute?",
+    "options": [
+      "8-12 breaths",
+      "12-20 breaths",
+      "20-30 breaths",
+      "30-40 breaths"
+    ],
+    "answer": "12-20 breaths"
+  },
+  {
+    "id": 3,
+    "question": "Which electrolyte imbalance is most likely in a patient with severe vomiting?",
+    "options": ["Hyperkalemia", "Hypokalemia", "Hypernatremia", "Hypocalcemia"],
+    "answer": "Hypokalemia"
+  },
+  {
+    "id": 4,
+    "question": "The universal blood donor group is:",
+    "options": ["AB+", "O+", "O-", "AB-"],
+    "answer": "O-"
+  },
+  {
+    "id": 5,
+    "question": "Which antibiotic is contraindicated in children due to teeth discoloration?",
+    "options": ["Ciprofloxacin", "Amoxicillin", "Tetracycline", "Erythromycin"],
+    "answer": "Tetracycline"
+  },
+  {
+    "id": 6,
+    "question": "Which heart valve lies between the left atrium and left ventricle?",
+    "options": [
+      "Aortic valve",
+      "Pulmonary valve",
+      "Tricuspid valve",
+      "Mitral valve"
+    ],
+    "answer": "Mitral valve"
+  },
+  {
+    "id": 7,
+    "question": "In which part of the nephron does maximum reabsorption of glucose occur?",
+    "options": [
+      "Loop of Henle",
+      "Proximal convoluted tubule",
+      "Distal convoluted tubule",
+      "Collecting duct"
+    ],
+    "answer": "Proximal convoluted tubule"
+  },
+  {
+    "id": 8,
+    "question": "Which vitamin deficiency causes night blindness?",
+    "options": ["Vitamin A", "Vitamin D", "Vitamin E", "Vitamin K"],
+    "answer": "Vitamin A"
+  },
+  {
+    "id": 9,
+    "question": "The Glasgow Coma Scale evaluates all of the following EXCEPT:",
+    "options": [
+      "Eye response",
+      "Motor response",
+      "Sensory response",
+      "Verbal response"
+    ],
+    "answer": "Sensory response"
+  },
+  {
+    "id": 10,
+    "question": "What is the antidote for organophosphate poisoning?",
+    "options": ["Atropine", "Naloxone", "Flumazenil", "Protamine sulfate"],
+    "answer": "Atropine"
+  },
+  {
+    "id": 11,
+    "question": "Which artery is commonly used for checking blood pressure?",
+    "options": [
+      "Femoral artery",
+      "Brachial artery",
+      "Radial artery",
+      "Carotid artery"
+    ],
+    "answer": "Brachial artery"
+  },
+  {
+    "id": 12,
+    "question": "The most common site of peptic ulcer is:",
+    "options": ["Stomach body", "Fundus", "Duodenum", "Esophagus"],
+    "answer": "Duodenum"
+  },
+  {
+    "id": 13,
+    "question": "Which of the following is an example of a live attenuated vaccine?",
+    "options": ["BCG", "Tetanus toxoid", "Hepatitis B", "Diphtheria toxoid"],
+    "answer": "BCG"
+  },
+  {
+    "id": 14,
+    "question": "What is the normal value of fasting blood glucose?",
+    "options": [
+      "50-70 mg/dl",
+      "70-100 mg/dl",
+      "100-150 mg/dl",
+      "150-200 mg/dl"
+    ],
+    "answer": "70-100 mg/dl"
+  },
+  {
+    "id": 15,
+    "question": "Which hormone regulates the sleep-wake cycle?",
+    "options": ["Insulin", "Melatonin", "Cortisol", "Thyroxine"],
+    "answer": "Melatonin"
+  },
+  {
+    "id": 16,
+    "question": "In CPR, the correct compression to ventilation ratio for adults is:",
+    "options": ["15:2", "20:2", "30:2", "5:1"],
+    "answer": "30:2"
+  },
+  {
+    "id": 17,
+    "question": "Which of the following is NOT a part of the small intestine?",
+    "options": ["Duodenum", "Jejunum", "Ileum", "Cecum"],
+    "answer": "Cecum"
+  },
+  {
+    "id": 18,
+    "question": "The drug Heparin acts by:",
+    "options": [
+      "Inhibiting platelet aggregation",
+      "Activating antithrombin III",
+      "Blocking vitamin K synthesis",
+      "Stimulating fibrinolysis"
+    ],
+    "answer": "Activating antithrombin III"
+  },
+  {
+    "id": 19,
+    "question": "Which of the following is the main function of the cerebellum?",
+    "options": ["Vision", "Hearing", "Balance and coordination", "Speech"],
+    "answer": "Balance and coordination"
+  },
+  {
+    "id": 20,
+    "question": "Which condition is also known as 'silent killer'?",
+    "options": ["Diabetes mellitus", "Hypertension", "Tuberculosis", "Asthma"],
+    "answer": "Hypertension"
+  },
+  {
+    "id": 21,
+    "question": "Which part of the brain regulates body temperature?",
+    "options": ["Cerebrum", "Hypothalamus", "Medulla oblongata", "Cerebellum"],
+    "answer": "Hypothalamus"
+  },
+  {
+    "id": 22,
+    "question": "What is the normal range of adult systolic blood pressure?",
+    "options": ["80-100 mmHg", "90-120 mmHg", "120-140 mmHg", "140-160 mmHg"],
+    "answer": "90-120 mmHg"
+  },
+  {
+    "id": 23,
+    "question": "Which electrolyte imbalance is seen in Addison’s disease?",
+    "options": [
+      "Hypernatremia",
+      "Hyponatremia",
+      "Hypercalcemia",
+      "Hypocalcemia"
+    ],
+    "answer": "Hyponatremia"
+  },
+  {
+    "id": 24,
+    "question": "Which vaccine is given at birth?",
+    "options": ["DPT", "Hepatitis B", "BCG", "MMR"],
+    "answer": "BCG"
+  },
+  {
+    "id": 25,
+    "question": "Which clotting factor is deficient in Hemophilia A?",
+    "options": ["Factor VIII", "Factor IX", "Factor VII", "Factor X"],
+    "answer": "Factor VIII"
+  },
+  {
+    "id": 26,
+    "question": "The antidote for benzodiazepine overdose is:",
+    "options": ["Naloxone", "Flumazenil", "Atropine", "Protamine sulfate"],
+    "answer": "Flumazenil"
+  },
+  {
+    "id": 27,
+    "question": "Which type of immunity is provided by a vaccine?",
+    "options": [
+      "Natural active",
+      "Artificial active",
+      "Natural passive",
+      "Artificial passive"
+    ],
+    "answer": "Artificial active"
+  },
+  {
+    "id": 28,
+    "question": "Which cranial nerve controls tongue movements?",
+    "options": ["Glossopharyngeal", "Facial", "Hypoglossal", "Trigeminal"],
+    "answer": "Hypoglossal"
+  },
+  {
+    "id": 29,
+    "question": "What is the main side effect of ACE inhibitors?",
+    "options": ["Dry cough", "Tachycardia", "Constipation", "Blurred vision"],
+    "answer": "Dry cough"
+  },
+  {
+    "id": 30,
+    "question": "Which cell is responsible for antibody production?",
+    "options": ["T-lymphocyte", "B-lymphocyte", "Macrophage", "Neutrophil"],
+    "answer": "B-lymphocyte"
+  },
+  {
+    "id": 31,
+    "question": "Which blood test is used to monitor warfarin therapy?",
+    "options": ["aPTT", "PT/INR", "D-dimer", "Bleeding time"],
+    "answer": "PT/INR"
+  },
+  {
+    "id": 32,
+    "question": "Which is the most common type of shock in trauma patients?",
+    "options": [
+      "Septic shock",
+      "Cardiogenic shock",
+      "Hypovolemic shock",
+      "Neurogenic shock"
+    ],
+    "answer": "Hypovolemic shock"
+  },
+  {
+    "id": 33,
+    "question": "Which vitamin is essential for calcium absorption?",
+    "options": ["Vitamin A", "Vitamin B12", "Vitamin D", "Vitamin K"],
+    "answer": "Vitamin D"
+  },
+  {
+    "id": 34,
+    "question": "Which artery supplies the kidneys?",
+    "options": [
+      "Renal artery",
+      "Femoral artery",
+      "Celiac artery",
+      "Mesenteric artery"
+    ],
+    "answer": "Renal artery"
+  },
+  {
+    "id": 35,
+    "question": "Which antibiotic is safe in pregnancy?",
+    "options": ["Tetracycline", "Ciprofloxacin", "Amoxicillin", "Streptomycin"],
+    "answer": "Amoxicillin"
+  },
+  {
+    "id": 36,
+    "question": "Which heart sound corresponds to closure of the atrioventricular valves?",
+    "options": ["S1", "S2", "S3", "S4"],
+    "answer": "S1"
+  },
+  {
+    "id": 37,
+    "question": "Which of the following is NOT a symptom of diabetes mellitus?",
+    "options": ["Polyuria", "Polydipsia", "Polyphagia", "Poliomyelitis"],
+    "answer": "Poliomyelitis"
+  },
+  {
+    "id": 38,
+    "question": "Which drug is used as an antidote for paracetamol overdose?",
+    "options": ["Atropine", "N-acetylcysteine", "Naloxone", "Flumazenil"],
+    "answer": "N-acetylcysteine"
+  },
+  {
+    "id": 39,
+    "question": "Which organ is primarily affected in hepatitis?",
+    "options": ["Kidney", "Liver", "Spleen", "Pancreas"],
+    "answer": "Liver"
+  },
+  {
+    "id": 40,
+    "question": "What is the incubation period of hepatitis B?",
+    "options": ["2-4 weeks", "6 weeks-6 months", "1-2 days", "2 years"],
+    "answer": "6 weeks-6 months"
+  },
+  {
+    "id": 41,
+    "question": "Which electrolyte is most abundant in extracellular fluid?",
+    "options": ["Potassium", "Sodium", "Calcium", "Magnesium"],
+    "answer": "Sodium"
+  },
+  {
+    "id": 42,
+    "question": "Which of the following is NOT a feature of nephrotic syndrome?",
+    "options": ["Proteinuria", "Edema", "Hypoalbuminemia", "Hyperglycemia"],
+    "answer": "Hyperglycemia"
+  },
+  {
+    "id": 43,
+    "question": "Which lung sound is commonly heard in asthma?",
+    "options": ["Crackles", "Rhonchi", "Wheezing", "Pleural rub"],
+    "answer": "Wheezing"
+  },
+  {
+    "id": 44,
+    "question": "What is the main function of hemoglobin?",
+    "options": [
+      "Transport glucose",
+      "Transport oxygen",
+      "Transport carbon dioxide",
+      "Produce energy"
+    ],
+    "answer": "Transport oxygen"
+  },
+  {
+    "id": 45,
+    "question": "Which hormone increases blood glucose levels?",
+    "options": ["Insulin", "Glucagon", "Calcitonin", "Aldosterone"],
+    "answer": "Glucagon"
+  },
+  {
+    "id": 46,
+    "question": "Which vitamin deficiency causes scurvy?",
+    "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
+    "answer": "Vitamin C"
+  },
+  {
+    "id": 47,
+    "question": "Which part of the ECG corresponds to ventricular depolarization?",
+    "options": ["P wave", "QRS complex", "T wave", "PR interval"],
+    "answer": "QRS complex"
+  },
+  {
+    "id": 48,
+    "question": "Which disease is also called 'white plague'?",
+    "options": ["Leprosy", "Tuberculosis", "Syphilis", "Malaria"],
+    "answer": "Tuberculosis"
+  },
+  {
+    "id": 49,
+    "question": "Which cranial nerve is affected in Bell’s palsy?",
+    "options": [
+      "Trigeminal nerve",
+      "Facial nerve",
+      "Optic nerve",
+      "Vagus nerve"
+    ],
+    "answer": "Facial nerve"
+  },
+  {
+    "id": 50,
+    "question": "Which diagnostic test is most specific for myocardial infarction?",
+    "options": ["Troponin I", "CK-MB", "LDH", "ECG"],
+    "answer": "Troponin I"
+  },
+  {
+    "id": 51,
+    "question": "Which lung lobe is most commonly affected in aspiration pneumonia?",
+    "options": [
+      "Right lower lobe",
+      "Left upper lobe",
+      "Right middle lobe",
+      "Left lower lobe"
+    ],
+    "answer": "Right lower lobe"
+  },
+  {
+    "id": 52,
+    "question": "What is the first-line drug for anaphylaxis?",
+    "options": ["Hydrocortisone", "Adrenaline", "Antihistamine", "Salbutamol"],
+    "answer": "Adrenaline"
+  },
+  {
+    "id": 53,
+    "question": "Which vitamin deficiency causes rickets?",
+    "options": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
+    "answer": "Vitamin D"
+  },
+  {
+    "id": 54,
+    "question": "Which cell organelle is known as the powerhouse of the cell?",
+    "options": ["Nucleus", "Mitochondria", "Ribosome", "Golgi apparatus"],
+    "answer": "Mitochondria"
+  },
+  {
+    "id": 55,
+    "question": "Which is the most common cause of meningitis in adults?",
+    "options": [
+      "Streptococcus pneumoniae",
+      "E. coli",
+      "H. influenzae",
+      "Klebsiella"
+    ],
+    "answer": "Streptococcus pneumoniae"
+  },
+  {
+    "id": 56,
+    "question": "Which drug is used to treat malaria caused by Plasmodium falciparum?",
+    "options": ["Chloroquine", "Quinine", "Metronidazole", "Isoniazid"],
+    "answer": "Quinine"
+  },
+  {
+    "id": 57,
+    "question": "Which organ produces insulin?",
+    "options": ["Liver", "Pancreas", "Spleen", "Kidney"],
+    "answer": "Pancreas"
+  },
+  {
+    "id": 58,
+    "question": "Which electrolyte imbalance causes Trousseau’s sign?",
+    "options": [
+      "Hyperkalemia",
+      "Hypocalcemia",
+      "Hypernatremia",
+      "Hypomagnesemia"
+    ],
+    "answer": "Hypocalcemia"
+  },
+  {
+    "id": 59,
+    "question": "Which bacterium causes syphilis?",
+    "options": [
+      "Neisseria gonorrhoeae",
+      "Treponema pallidum",
+      "Chlamydia trachomatis",
+      "Mycoplasma"
+    ],
+    "answer": "Treponema pallidum"
+  },
+  {
+    "id": 60,
+    "question": "Which test is used for diagnosing HIV?",
+    "options": ["Widal test", "ELISA", "VDRL", "Mantoux test"],
+    "answer": "ELISA"
+  },
+  {
+    "id": 61,
+    "question": "Which artery is palpated during CPR?",
+    "options": [
+      "Radial artery",
+      "Carotid artery",
+      "Brachial artery",
+      "Femoral artery"
+    ],
+    "answer": "Carotid artery"
+  },
+  {
+    "id": 62,
+    "question": "Which microorganism causes tuberculosis?",
+    "options": [
+      "Mycobacterium leprae",
+      "Mycobacterium tuberculosis",
+      "Clostridium tetani",
+      "E. coli"
+    ],
+    "answer": "Mycobacterium tuberculosis"
+  },
+  {
+    "id": 63,
+    "question": "Which vaccine prevents cervical cancer?",
+    "options": ["Hepatitis B", "MMR", "HPV vaccine", "Polio vaccine"],
+    "answer": "HPV vaccine"
+  },
+  {
+    "id": 64,
+    "question": "Which is the most common type of anemia worldwide?",
+    "options": [
+      "Megaloblastic anemia",
+      "Iron deficiency anemia",
+      "Sickle cell anemia",
+      "Aplastic anemia"
+    ],
+    "answer": "Iron deficiency anemia"
+  },
+  {
+    "id": 65,
+    "question": "Which vein is used for central venous catheter insertion?",
+    "options": [
+      "Cephalic vein",
+      "Jugular vein",
+      "Femoral vein",
+      "Median cubital vein"
+    ],
+    "answer": "Jugular vein"
+  },
+  {
+    "id": 66,
+    "question": "Which organ is enlarged in malaria?",
+    "options": ["Liver", "Spleen", "Kidney", "Pancreas"],
+    "answer": "Spleen"
+  },
+  {
+    "id": 67,
+    "question": "Which of the following is NOT a symptom of hypothyroidism?",
+    "options": [
+      "Weight gain",
+      "Bradycardia",
+      "Heat intolerance",
+      "Constipation"
+    ],
+    "answer": "Heat intolerance"
+  },
+  {
+    "id": 68,
+    "question": "Which bone is fractured most commonly in the body?",
+    "options": ["Clavicle", "Femur", "Radius", "Humerus"],
+    "answer": "Clavicle"
+  },
+  {
+    "id": 69,
+    "question": "Which neurotransmitter is deficient in Parkinson’s disease?",
+    "options": ["Dopamine", "Serotonin", "Acetylcholine", "GABA"],
+    "answer": "Dopamine"
+  },
+  {
+    "id": 70,
+    "question": "Which is the gold standard test for diagnosing diabetes mellitus?",
+    "options": [
+      "Fasting glucose",
+      "Random glucose",
+      "HbA1c",
+      "Oral glucose tolerance test"
+    ],
+    "answer": "Oral glucose tolerance test"
+  },
+  {
+    "id": 71,
+    "question": "Which vitamin is required for clotting factor synthesis?",
+    "options": ["Vitamin A", "Vitamin B12", "Vitamin D", "Vitamin K"],
+    "answer": "Vitamin K"
+  },
+  {
+    "id": 72,
+    "question": "Which drug is used to treat status epilepticus?",
+    "options": ["Phenytoin", "Diazepam", "Carbamazepine", "Valproate"],
+    "answer": "Diazepam"
+  },
+  {
+    "id": 73,
+    "question": "Which microorganism causes cholera?",
+    "options": ["Salmonella typhi", "Vibrio cholerae", "E. coli", "Shigella"],
+    "answer": "Vibrio cholerae"
+  },
+  {
+    "id": 74,
+    "question": "Which lung disease is associated with 'pink puffers'?",
+    "options": ["Asthma", "Emphysema", "Bronchitis", "Tuberculosis"],
+    "answer": "Emphysema"
+  },
+  {
+    "id": 75,
+    "question": "Which bone disease is characterized by decreased bone mass?",
+    "options": ["Osteoarthritis", "Osteoporosis", "Osteomyelitis", "Rickets"],
+    "answer": "Osteoporosis"
+  },
+  {
+    "id": 76,
+    "question": "Which drug is first-line for hypertension?",
+    "options": [
+      "Beta-blockers",
+      "Diuretics",
+      "Calcium channel blockers",
+      "ACE inhibitors"
+    ],
+    "answer": "ACE inhibitors"
+  },
+  {
+    "id": 77,
+    "question": "Which nerve is compressed in carpal tunnel syndrome?",
+    "options": [
+      "Ulnar nerve",
+      "Median nerve",
+      "Radial nerve",
+      "Musculocutaneous nerve"
+    ],
+    "answer": "Median nerve"
+  },
+  {
+    "id": 78,
+    "question": "Which bacteria causes tetanus?",
+    "options": [
+      "Clostridium botulinum",
+      "Clostridium tetani",
+      "Clostridium difficile",
+      "Clostridium perfringens"
+    ],
+    "answer": "Clostridium tetani"
+  },
+  {
+    "id": 79,
+    "question": "Which drug is contraindicated in asthma?",
+    "options": ["Salbutamol", "Atenolol", "Ipratropium", "Prednisolone"],
+    "answer": "Atenolol"
+  },
+  {
+    "id": 80,
+    "question": "Which electrolyte imbalance is common in renal failure?",
+    "options": ["Hypokalemia", "Hyperkalemia", "Hyponatremia", "Hypocalcemia"],
+    "answer": "Hyperkalemia"
+  },
+  {
+    "id": 81,
+    "question": "Which test is used to detect latent tuberculosis?",
+    "options": ["Mantoux test", "ELISA", "Widal test", "PCR"],
+    "answer": "Mantoux test"
+  },
+  {
+    "id": 82,
+    "question": "Which organ secretes bile?",
+    "options": ["Pancreas", "Liver", "Gallbladder", "Stomach"],
+    "answer": "Liver"
+  },
+  {
+    "id": 83,
+    "question": "Which artery supplies blood to the heart?",
+    "options": [
+      "Pulmonary artery",
+      "Coronary artery",
+      "Carotid artery",
+      "Aorta"
+    ],
+    "answer": "Coronary artery"
+  },
+  {
+    "id": 84,
+    "question": "Which lung disease is associated with 'blue bloaters'?",
+    "options": [
+      "Asthma",
+      "Chronic bronchitis",
+      "Emphysema",
+      "Pulmonary embolism"
+    ],
+    "answer": "Chronic bronchitis"
+  },
+  {
+    "id": 85,
+    "question": "Which organelle is responsible for protein synthesis?",
+    "options": ["Mitochondria", "Ribosome", "Lysosome", "Golgi apparatus"],
+    "answer": "Ribosome"
+  },
+  {
+    "id": 86,
+    "question": "Which bone forms the forehead?",
+    "options": [
+      "Parietal bone",
+      "Temporal bone",
+      "Frontal bone",
+      "Occipital bone"
+    ],
+    "answer": "Frontal bone"
+  },
+  {
+    "id": 87,
+    "question": "Which drug is first-line for type 2 diabetes?",
+    "options": ["Insulin", "Metformin", "Sulfonylurea", "Glucagon"],
+    "answer": "Metformin"
+  }
+]
