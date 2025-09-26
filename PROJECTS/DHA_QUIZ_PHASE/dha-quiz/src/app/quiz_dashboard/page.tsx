@@ -1,33 +1,49 @@
 "use client"
 
+import React, { useState, useEffect } from "react"
+import { getQuizData } from "@/api"
+import QuizBoard from "@/components/ui/quiz-board/quiz-board"
+import { Button } from "@/components/ui/button"
 import {
   Banner,
   BannerIcon,
   BannerTitle,
 } from "@/components/ui/shadcn-io/banner"
-import { CircleAlert } from "lucide-react"
+import { CircleAlert, Loader2, RefreshCcw } from "lucide-react"
 import { Text } from "@radix-ui/themes"
-import React, { useState } from "react"
 import { Separator } from "@/components/ui/separator"
-import { Button } from "@/components/ui/button"
-
-import questions from "../../../quiz-data.json"
-import QuizBoard from "@/components/ui/quiz-board/quiz-board"
 
 const Page = () => {
-  const [started, setStarted] = useState<boolean>(false)
-  const [current, setCurrent] = useState<number>(0)
-  const [score, setScore] = useState<number>(0)
-  const [selectedOption, setSelectedOption] = useState<string>("")
-  const [finished, setFinished] = useState<boolean>(false)
+  const [started, setStarted] = useState(false)
+  const [current, setCurrent] = useState(0)
+  const [score, setScore] = useState(0)
+  const [selectedOption, setSelectedOption] = useState("")
+  const [finished, setFinished] = useState(false)
+  const [questions, setQuestions] = useState<any[]>([])
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    const fetchData = async () => {
+      setLoading(true)
+      const data = await getQuizData()
+      setQuestions(data || [])
+      setLoading(false)
+    }
+    fetchData()
+  }, [])
+
+  const onRefresh = async () => {
+    setLoading(true)
+    const data = await getQuizData()
+    setQuestions(data || [])
+    setLoading(false)
+  }
 
   const handleAnswer = (option: string) => {
+    if (loading || !questions.length) return
     setSelectedOption(option)
-
     const currentQuestion = questions[current]
-    if (option === currentQuestion.answer) {
-      setScore((prev) => prev + 1)
-    }
+    if (option === currentQuestion.answer) setScore((prev) => prev + 1)
 
     setTimeout(() => {
       if (current < questions.length - 1) {
@@ -89,15 +105,34 @@ const Page = () => {
             <Text className="mb-3 block">
               Score: {score} / {questions.length}
             </Text>
-            <QuizBoard
-              index={current}
-              question={questions[current].question}
-              options={questions[current].options}
-              id={questions[current].id}
-              onAnswer={handleAnswer}
-              selectedOption={selectedOption}
-              correctAnswer={questions[current].answer}
-            />
+
+            {loading ? (
+              <>
+                <Loader2 className="animate-spin" />
+                <Text>
+                  Quiz generation is in progress. AI is producing it. Please
+                  wait...
+                </Text>
+              </>
+            ) : (
+              <RefreshCcw
+                size={20}
+                className="cursor-pointer mb-3"
+                onClick={onRefresh}
+              />
+            )}
+
+            {questions.length > 0 && !loading && (
+              <QuizBoard
+                index={current}
+                question={questions[current].question}
+                options={questions[current].options}
+                id={questions[current].id}
+                onAnswer={handleAnswer}
+                selectedOption={selectedOption}
+                correctAnswer={questions[current].answer}
+              />
+            )}
           </div>
           <Separator className="my-6 w-full max-w-3xl" />
           <Text className="text-gray">@ Originated By Ali Hassan.</Text>
